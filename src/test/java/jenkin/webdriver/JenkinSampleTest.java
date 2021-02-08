@@ -30,7 +30,7 @@ public class JenkinSampleTest {
      ChromeOptions option = new ChromeOptions();
 	 driver = new ChromeDriver();
 	 driver.get("https://www.google.com/");
-	 driver.manage().timeouts().implicitlyWait(15,TimeUnit.SECONDS);
+	 driver.manage().timeouts().implicitlyWait(15,TimeUnit.SECONDS);;
 	 
 	
 	}
