@@ -6,7 +6,7 @@ public class NewTest {
   
   @Test
   public void Test01() {
-    System.out.println("Simple dry 2...3..5..6");
+    System.out.println("testing code...123");
     
   }
 }
