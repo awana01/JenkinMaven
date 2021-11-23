@@ -8,5 +8,6 @@ public class NewTest01 {
   public void Test01() {
     System.out.println("Simple dry 2...");
     System.out.println("Simple dry 3...");
+    System.out.println("Simple dry 4...");
   }
 }
