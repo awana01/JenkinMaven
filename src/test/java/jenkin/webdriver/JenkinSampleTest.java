@@ -26,7 +26,7 @@ public class JenkinSampleTest {
 	@BeforeClass()
 	public void beforeTest() {
 
-	 System.setProperty("webdriver.chrome.driver","E:\\Selenium-3.6\\chrome-87\\chromedriver.exe");
+	 //System.setProperty("webdriver.chrome.driver","E:\\Selenium-3.6\\chrome-87\\chromedriver.exe");
 	 
 	 WebDriverManager.chromedriver().setup();
      ChromeOptions option = new ChromeOptions();
@@ -55,7 +55,7 @@ public class JenkinSampleTest {
      Thread.sleep(5000);
 
      Assert.assertEquals(search_data+" - Google Search",driver.getTitle());
-
+     System.out.println("Google Test");
 
 
 
