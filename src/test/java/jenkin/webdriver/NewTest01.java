@@ -7,6 +7,6 @@ public class NewTest01 {
   @Test
   public void Test01() {
     System.out.println("Simple dry 2...");
-
+    System.out.println("Simple dry 3...");
   }
 }
