@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-23T12:42:34 IST" name="Default suite" finished-at="2021-11-23T12:42:34 IST" duration-ms="116">
+    <groups>
+    </groups>
+    <test started-at="2021-11-23T12:42:34 IST" name="Default test" finished-at="2021-11-23T12:42:34 IST" duration-ms="116">
+      <class name="jenkin.webdriver.NewTest01">
+        <test-method signature="Test01()[pri:0, instance:jenkin.webdriver.NewTest01@7c729a55]" started-at="2021-11-23T12:42:34 IST" name="Test01" finished-at="2021-11-23T12:42:34 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01 -->
+      </class> <!-- jenkin.webdriver.NewTest01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

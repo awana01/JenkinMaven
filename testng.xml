@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite"  parallel="instances" thread-count="1" preserve-order="true"> <!-- parallel="none" preserve-order="true"--> <!-- parallel="false" thread-count="1"-->
+  <test name="OrangeTests" preserve-order="true">
+    <classes>
+<!--       <class name="jenkin.webdriver.OrangeHRDemo"/> -->
+      <class name="jenkin.webdriver.NewTest01"/>
+      <class name="jenkin.webdriver.JenkinSampleTest"/>
+      <!-- <class name="jenkin.webdriver.AddNewUserTest"/>
+      <class name="jenkin.webdriver.CreateAdminTypeUserTest"/>
+      <class name="jenkin.webdriver.AdminChangeUserRoleTest"/>
+      <class name="jenkin.webdriver.ProtonMailEdgeTest"/>
+      <class name="jenkin.webdriver.MavenRepoFFTest"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
