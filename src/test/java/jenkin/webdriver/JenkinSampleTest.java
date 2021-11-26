@@ -55,8 +55,8 @@ public class JenkinSampleTest {
      Thread.sleep(5000);
 
      Assert.assertEquals(search_data+" - Google Search",driver.getTitle());
-     System.out.println("Google Test");
-
+     System.out.println("Google Test1");
+     System.out.println("Google Test2");
 
 
   }
