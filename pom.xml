@@ -9,6 +9,7 @@
     <maven.compiler.target>10</maven.compiler.target>
     <aspectj.version>1.9.1</aspectj.version>
     <java.version>15</java.version>
+    <allure.results.directory>target/allure-results</allure.results.directory>
   </properties>
   
   
@@ -103,5 +104,17 @@
       </plugins>
     </pluginManagement>
   </build>
-  
+    <reporting>
+        <excludeDefaults>true</excludeDefaults>
+        <plugins>
+            <plugin>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>2.10.0</version>
+                <configuration>
+                    <reportVersion>2.13.0</reportVersion>
+                </configuration>
+            </plugin>
+        </plugins>
+    </reporting>
 </project>
