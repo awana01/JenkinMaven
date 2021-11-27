@@ -86,7 +86,8 @@
                     -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                 </argLine>
                 <systemPropertyVariables>
-                    <allureResultsDirectory>target\allure-results</allureResultsDirectory>
+<!--                    <allureResultsDirectory>target/allure-results</allureResultsDirectory>-->
+                    <allure.results.directory>target/allure-results</allure.results.directory>
                 </systemPropertyVariables>
 			</configuration>
               <dependencies>
@@ -111,7 +112,7 @@
                 <version>2.10.0</version>
                 <configuration>
                    <reportVersion>2.13.0</reportVersion>
-                   <outputDirectory>target\allure-results</outputDirectory>
+                   <outputDirectory>target/allure-results</outputDirectory>
 
                 </configuration>
             </plugin>
